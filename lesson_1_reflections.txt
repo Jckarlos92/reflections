@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   Because it tells you exactly which line change between the two versions of a
+file, making easier to find typos, missing characters, etc. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because you can return to previous versions that worked, or check what changes
+affected the performance of your application. This saves a lot of time, instead of
+doing brute force tests. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you have more control over the changes you want to save, you save only 
+code you consider relevant.
+	Cons: maybe you scould forget to save a commit, change code and lose the 
+working-version. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is used mostly to control code. Sometimes, some files (e.g.: .cs files)
+are related each other, so if you change one, it could affect another. Because an 
+application is built by multiple archives and these archives need to work well together,
+Git should allow saving multiple files in one commit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use "git log" to see all the commits that have been done in a single 
+project and their respective stadistics and data, and then, you can use 'git diff' to 
+find differences between two commits, to compare the lines that were added/deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It makes you have no fear on making changes on the code, since you have the
+chance to return to previous versions, in case you screw something or even you 
+can compare two commits (versions) to note the difference between each one. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For the completition of this course, and also, for my own personal projects,
+such as the ones of the University
