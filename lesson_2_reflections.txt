@@ -15,13 +15,31 @@ of each file since the creation of each one.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can "stage" a file (using git add), so that only the modified archive (the one with the logical change)
+gets commited after running git commit. 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Some situations are: when you want to create two or more versions of the project, when you want to experiment
+with changes in the code without affecting the entire project, to change the language, etc. 
+The branches help to work on the same project, but in different versions, without affecting each other. 
+
 How do the diagrams help you visualize the branch structure?
+
+Having a diagram, let you visualize which commits belong to each branch, and therefore, how branches are
+made (like a tree).
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is that the commits of each branch will be combined into a single one (commonly, master) and 
+changes in both will be reflected into the combined one. We represent this in the diagram as an-only branch,
+because they're now combined. 
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+The automatic merging does all the work for you: it searches for the changes, and it combines the changes into
+one single file. However, this could cause a conflict. Doing merges manually gives you more control over the files, 
+and therefore, you can solve the merging conflicts. 
